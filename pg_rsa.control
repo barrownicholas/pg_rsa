@@ -1,0 +1,3 @@
+comment = 'RSA JWT signing using OpenSSL'
+default_version = '1.0'
+relocatable = true
