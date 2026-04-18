@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/LiveTemplatesHousekeeping/HotspotSessionHintIsShown/@EntryValue" value="true" type="bool" />
+  </component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="pg_rsa" targetName="html" />
+      <config projectName="pg_rsa" targetName="submake-libpgport" />
+      <config projectName="pg_rsa" targetName="temp-install" />
+      <config projectName="pg_rsa" targetName="submake-libpgfeutils" />
+      <config projectName="pg_rsa" targetName="install-lib-shared" />
+      <config projectName="pg_rsa" targetName="submake-generated-headers" />
+      <config projectName="pg_rsa" targetName="submake" />
+      <config projectName="pg_rsa" targetName="install-lib" />
+      <config projectName="pg_rsa" targetName="submake-libpq" />
+      <config projectName="pg_rsa" targetName="all-static-lib" />
+      <config projectName="pg_rsa" targetName="pg_rsa.dylib" />
+      <config projectName="pg_rsa" targetName="coverage" />
+      <config projectName="pg_rsa" targetName="libpg_rsa.a" />
+      <config projectName="pg_rsa" targetName="all-lib" />
+      <config projectName="pg_rsa" targetName="installdirs-lib" />
+      <config projectName="pg_rsa" targetName="uninstall" />
+      <config projectName="pg_rsa" targetName="all" />
+      <config projectName="pg_rsa" targetName="update-po" />
+      <config projectName="pg_rsa" targetName="install-strip" />
+      <config projectName="pg_rsa" targetName="checkprep" />
+      <config projectName="pg_rsa" targetName="check" />
+      <config projectName="pg_rsa" targetName="update-unicode" />
+      <config projectName="pg_rsa" targetName="Makefile" />
+      <config projectName="pg_rsa" targetName="installdirs" />
+      <config projectName="pg_rsa" targetName="install" />
+      <config projectName="pg_rsa" targetName="install-lib-static" />
+      <config projectName="pg_rsa" targetName="uninstall-lib" />
+      <config projectName="pg_rsa" targetName="installcheck-parallel" />
+      <config projectName="pg_rsa" targetName="man" />
+      <config projectName="pg_rsa" targetName="all-shared-lib" />
+      <config projectName="pg_rsa" targetName="clean-lib" />
+      <config projectName="pg_rsa" targetName="install-lib-pc" />
+      <config projectName="pg_rsa" targetName="init-po" />
+      <config projectName="pg_rsa" targetName="installcheck" />
+      <config projectName="pg_rsa" targetName="show_dl_suffix" />
+      <config projectName="pg_rsa" targetName="distclean" />
+      <config projectName="pg_rsa" targetName="maintainer-clean" />
+    </generated>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3cc214dc-cc7f-4c5d-8284-2b6b3d8f69ce" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.clangd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/pg_rsa.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/pg_rsa.control" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/sql/pg_rsa--1.0.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pg_rsa--1.0.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pg_rsa_impl.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/_rsa_sign.test.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_private.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_public.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pg_rsa.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pg_rsa.control" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/pg_rsa--0.1.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test.sql" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;barrownicholas&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/barrownicholas/pg_rsa.git&quot;,
+    &quot;accountId&quot;: &quot;dbc09b04-b89f-4e43-a23c-76c279762b7d&quot;
+  }
+}</component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="mHqjwIXe" />
+  </component>
+  <component name="MakefileLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="pg_rsa" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="pg_rsa" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2026" />
+    <option name="minorVersion" value="1" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3CUmot6QlAdVeDkByrx2Mds648F" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Native Application.all.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/nrb/GitHub/pg_rsa&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;org.rust.first.attach.projects&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dist/sql" />
+      <recent name="$PROJECT_DIR$/tests" />
+      <recent name="$PROJECT_DIR$/test" />
+      <recent name="$PROJECT_DIR$/dist" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Native Application.all">
+    <configuration name="Makefile" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pg_rsa" TARGET_NAME="Makefile" CONFIG_NAME="Makefile" version="1" RUN_TARGET_PROJECT_NAME="pg_rsa" RUN_TARGET_NAME="Makefile">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="all-lib" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pg_rsa" TARGET_NAME="all-lib" CONFIG_NAME="all-lib" version="1" RUN_TARGET_PROJECT_NAME="pg_rsa" RUN_TARGET_NAME="all-lib">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="all-shared-lib" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pg_rsa" TARGET_NAME="all-shared-lib" CONFIG_NAME="all-shared-lib" version="1" RUN_TARGET_PROJECT_NAME="pg_rsa" RUN_TARGET_NAME="all-shared-lib">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="all-static-lib" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pg_rsa" TARGET_NAME="all-static-lib" CONFIG_NAME="all-static-lib" version="1" RUN_TARGET_PROJECT_NAME="pg_rsa" RUN_TARGET_NAME="all-static-lib">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="all" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pg_rsa" TARGET_NAME="all" CONFIG_NAME="all" version="1" RUN_TARGET_PROJECT_NAME="pg_rsa" RUN_TARGET_NAME="all">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="check" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pg_rsa" TARGET_NAME="check" CONFIG_NAME="check" version="1" RUN_TARGET_PROJECT_NAME="pg_rsa" RUN_TARGET_NAME="check">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="checkprep" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pg_rsa" TARGET_NAME="checkprep" CONFIG_NAME="checkprep" version="1" RUN_TARGET_PROJECT_NAME="pg_rsa" RUN_TARGET_NAME="checkprep">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clean-lib" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pg_rsa" TARGET_NAME="clean-lib" CONFIG_NAME="clean-lib" version="1" RUN_TARGET_PROJECT_NAME="pg_rsa" RUN_TARGET_NAME="clean-lib">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="coverage" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pg_rsa" TARGET_NAME="coverage" CONFIG_NAME="coverage" version="1" RUN_TARGET_PROJECT_NAME="pg_rsa" RUN_TARGET_NAME="coverage">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="distclean" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pg_rsa" TARGET_NAME="distclean" CONFIG_NAME="distclean" version="1" RUN_TARGET_PROJECT_NAME="pg_rsa" RUN_TARGET_NAME="distclean">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="html" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pg_rsa" TARGET_NAME="html" CONFIG_NAME="html" version="1" RUN_TARGET_PROJECT_NAME="pg_rsa" RUN_TARGET_NAME="html">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="init-po" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pg_rsa" TARGET_NAME="init-po" CONFIG_NAME="init-po" version="1" RUN_TARGET_PROJECT_NAME="pg_rsa" RUN_TARGET_NAME="init-po">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="install-lib-pc" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pg_rsa" TARGET_NAME="install-lib-pc" CONFIG_NAME="install-lib-pc" version="1" RUN_TARGET_PROJECT_NAME="pg_rsa" RUN_TARGET_NAME="install-lib-pc">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="install-lib-shared" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pg_rsa" TARGET_NAME="install-lib-shared" CONFIG_NAME="install-lib-shared" version="1" RUN_TARGET_PROJECT_NAME="pg_rsa" RUN_TARGET_NAME="install-lib-shared">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="install-lib-static" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pg_rsa" TARGET_NAME="install-lib-static" CONFIG_NAME="install-lib-static" version="1" RUN_TARGET_PROJECT_NAME="pg_rsa" RUN_TARGET_NAME="install-lib-static">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="install-lib" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pg_rsa" TARGET_NAME="install-lib" CONFIG_NAME="install-lib" version="1" RUN_TARGET_PROJECT_NAME="pg_rsa" RUN_TARGET_NAME="install-lib">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="install-strip" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pg_rsa" TARGET_NAME="install-strip" CONFIG_NAME="install-strip" version="1" RUN_TARGET_PROJECT_NAME="pg_rsa" RUN_TARGET_NAME="install-strip">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="install" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pg_rsa" TARGET_NAME="install" CONFIG_NAME="install" version="1" RUN_TARGET_PROJECT_NAME="pg_rsa" RUN_TARGET_NAME="install">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="installcheck-parallel" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pg_rsa" TARGET_NAME="installcheck-parallel" CONFIG_NAME="installcheck-parallel" version="1" RUN_TARGET_PROJECT_NAME="pg_rsa" RUN_TARGET_NAME="installcheck-parallel">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="installcheck" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pg_rsa" TARGET_NAME="installcheck" CONFIG_NAME="installcheck" version="1" RUN_TARGET_PROJECT_NAME="pg_rsa" RUN_TARGET_NAME="installcheck">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="installdirs-lib" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pg_rsa" TARGET_NAME="installdirs-lib" CONFIG_NAME="installdirs-lib" version="1" RUN_TARGET_PROJECT_NAME="pg_rsa" RUN_TARGET_NAME="installdirs-lib">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="installdirs" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pg_rsa" TARGET_NAME="installdirs" CONFIG_NAME="installdirs" version="1" RUN_TARGET_PROJECT_NAME="pg_rsa" RUN_TARGET_NAME="installdirs">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="libpg_rsa.a" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pg_rsa" TARGET_NAME="libpg_rsa.a" CONFIG_NAME="libpg_rsa.a" version="1" RUN_TARGET_PROJECT_NAME="pg_rsa" RUN_TARGET_NAME="libpg_rsa.a">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="maintainer-clean" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pg_rsa" TARGET_NAME="maintainer-clean" CONFIG_NAME="maintainer-clean" version="1" RUN_TARGET_PROJECT_NAME="pg_rsa" RUN_TARGET_NAME="maintainer-clean">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="man" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pg_rsa" TARGET_NAME="man" CONFIG_NAME="man" version="1" RUN_TARGET_PROJECT_NAME="pg_rsa" RUN_TARGET_NAME="man">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pg_rsa.dylib" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pg_rsa" TARGET_NAME="pg_rsa.dylib" CONFIG_NAME="pg_rsa.dylib" version="1" RUN_TARGET_PROJECT_NAME="pg_rsa" RUN_TARGET_NAME="pg_rsa.dylib">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="show_dl_suffix" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pg_rsa" TARGET_NAME="show_dl_suffix" CONFIG_NAME="show_dl_suffix" version="1" RUN_TARGET_PROJECT_NAME="pg_rsa" RUN_TARGET_NAME="show_dl_suffix">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="submake-generated-headers" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pg_rsa" TARGET_NAME="submake-generated-headers" CONFIG_NAME="submake-generated-headers" version="1" RUN_TARGET_PROJECT_NAME="pg_rsa" RUN_TARGET_NAME="submake-generated-headers">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="submake-libpgfeutils" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pg_rsa" TARGET_NAME="submake-libpgfeutils" CONFIG_NAME="submake-libpgfeutils" version="1" RUN_TARGET_PROJECT_NAME="pg_rsa" RUN_TARGET_NAME="submake-libpgfeutils">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="submake-libpgport" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pg_rsa" TARGET_NAME="submake-libpgport" CONFIG_NAME="submake-libpgport" version="1" RUN_TARGET_PROJECT_NAME="pg_rsa" RUN_TARGET_NAME="submake-libpgport">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="submake-libpq" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pg_rsa" TARGET_NAME="submake-libpq" CONFIG_NAME="submake-libpq" version="1" RUN_TARGET_PROJECT_NAME="pg_rsa" RUN_TARGET_NAME="submake-libpq">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="submake" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pg_rsa" TARGET_NAME="submake" CONFIG_NAME="submake" version="1" RUN_TARGET_PROJECT_NAME="pg_rsa" RUN_TARGET_NAME="submake">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="temp-install" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pg_rsa" TARGET_NAME="temp-install" CONFIG_NAME="temp-install" version="1" RUN_TARGET_PROJECT_NAME="pg_rsa" RUN_TARGET_NAME="temp-install">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="uninstall-lib" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pg_rsa" TARGET_NAME="uninstall-lib" CONFIG_NAME="uninstall-lib" version="1" RUN_TARGET_PROJECT_NAME="pg_rsa" RUN_TARGET_NAME="uninstall-lib">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="uninstall" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pg_rsa" TARGET_NAME="uninstall" CONFIG_NAME="uninstall" version="1" RUN_TARGET_PROJECT_NAME="pg_rsa" RUN_TARGET_NAME="uninstall">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="update-po" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pg_rsa" TARGET_NAME="update-po" CONFIG_NAME="update-po" version="1" RUN_TARGET_PROJECT_NAME="pg_rsa" RUN_TARGET_NAME="update-po">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="update-unicode" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pg_rsa" TARGET_NAME="update-unicode" CONFIG_NAME="update-unicode" version="1" RUN_TARGET_PROJECT_NAME="pg_rsa" RUN_TARGET_NAME="update-unicode">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Native Application.all" />
+      <item itemvalue="Native Application.all-lib" />
+      <item itemvalue="Native Application.all-shared-lib" />
+      <item itemvalue="Native Application.all-static-lib" />
+      <item itemvalue="Native Application.check" />
+      <item itemvalue="Native Application.checkprep" />
+      <item itemvalue="Native Application.clean-lib" />
+      <item itemvalue="Native Application.coverage" />
+      <item itemvalue="Native Application.distclean" />
+      <item itemvalue="Native Application.html" />
+      <item itemvalue="Native Application.init-po" />
+      <item itemvalue="Native Application.install" />
+      <item itemvalue="Native Application.install-lib" />
+      <item itemvalue="Native Application.install-lib-shared" />
+      <item itemvalue="Native Application.install-lib-static" />
+      <item itemvalue="Native Application.install-strip" />
+      <item itemvalue="Native Application.installcheck" />
+      <item itemvalue="Native Application.installcheck-parallel" />
+      <item itemvalue="Native Application.installdirs" />
+      <item itemvalue="Native Application.installdirs-lib" />
+      <item itemvalue="Native Application.maintainer-clean" />
+      <item itemvalue="Native Application.man" />
+      <item itemvalue="Native Application.show_dl_suffix" />
+      <item itemvalue="Native Application.submake" />
+      <item itemvalue="Native Application.submake-generated-headers" />
+      <item itemvalue="Native Application.submake-libpgfeutils" />
+      <item itemvalue="Native Application.submake-libpgport" />
+      <item itemvalue="Native Application.submake-libpq" />
+      <item itemvalue="Native Application.temp-install" />
+      <item itemvalue="Native Application.uninstall" />
+      <item itemvalue="Native Application.uninstall-lib" />
+      <item itemvalue="Native Application.update-po" />
+      <item itemvalue="Native Application.update-unicode" />
+      <item itemvalue="Native Application.install-lib-pc" />
+      <item itemvalue="Native Application.libpg_rsa.a" />
+      <item itemvalue="Native Application.Makefile" />
+      <item itemvalue="Native Application.pg_rsa.dylib" />
+    </list>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3cc214dc-cc7f-4c5d-8284-2b6b3d8f69ce" name="Changes" comment="" />
+      <created>1776448701452</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1776448701452</updated>
+      <workItem from="1776448702499" duration="10882000" />
+      <workItem from="1776540286225" duration="282000" />
+      <workItem from="1776540579034" duration="226000" />
+      <workItem from="1776540815204" duration="8074000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

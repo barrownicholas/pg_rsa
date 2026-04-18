@@ -1,0 +1,8 @@
+#!/bin/sh
+
+gcc tests/_rsa_sign.test.c \
+    -I$(brew --prefix openssl)/include \
+    -L$(brew --prefix openssl)/lib \
+    -lssl -lcrypto \
+    -o pg_rsa_test.o && ./pg_rsa_test.o
+rm -rf pg_rsa_test.o

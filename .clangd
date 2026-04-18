@@ -1,0 +1,13 @@
+CompileFlags:
+  Add:
+    - -I/opt/homebrew/include/postgresql@17/server
+    - -I/opt/homebrew/include/postgresql@17/internal
+    - -I/opt/homebrew/opt/openssl@3/include
+    - -I/opt/homebrew/opt/gettext/include
+    - -I/opt/homebrew/opt/krb5/include
+    - -I/opt/homebrew/opt/readline/include
+    - -I/opt/homebrew/opt/lz4/include
+    - -I/opt/homebrew/opt/zstd/include
+    - -I/opt/homebrew/opt/icu4c@78/include
+    - -isysroot
+    - /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk
