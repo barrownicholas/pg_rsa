@@ -13,7 +13,7 @@ RETURNS bytea
 AS 'pg_rsa', 'v1_0__rsa_sign'
 LANGUAGE C CALLED ON NULL INPUT;
 
-CREATE OR REPLACE FUNCTION @extschema@.pg_rsa_sign_base64(
+CREATE OR REPLACE FUNCTION @extschema@.pg_rsa_sign_b64(
     message     text,
     private_key text,
     algorithm   @extschema@.pg_rsa_algorithms DEFAULT 'SHA256'

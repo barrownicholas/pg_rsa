@@ -6,19 +6,22 @@ A PostgreSQL extension for RSA signing and verification using OpenSSL.
 
 ```sql
 -- Sign a message, returns raw bytes
-rsa_sign(message text, private_key text, algorithm rsa_algorithms DEFAULT 'SHA256') RETURNS bytea
+pg_rsa_sign(message text, private_key text, algorithm pg_rsa_algorithms DEFAULT 'SHA256') RETURNS bytea
 
 -- Sign a message, returns base64-encoded string
-rsa_sign_base64(message text, private_key text, algorithm rsa_algorithms DEFAULT 'SHA256') RETURNS text
+pg_rsa_sign_base64(message text, private_key text, algorithm pg_rsa_algorithms DEFAULT 'SHA256') RETURNS text
 
 -- Verify a signature (raw bytes)
-rsa_verify(message text, private_key text, algorithm rsa_algorithms, signature bytea) RETURNS boolean
+pg_rsa_verify(message text, public_key text, algorithm pg_rsa_algorithms, signature bytea) RETURNS boolean
 
 -- Verify a base64-encoded signature
-rsa_verify_b64(message text, private_key text, algorithm rsa_algorithms, signature text) RETURNS boolean
+pg_rsa_verify_b64(message text, public_key text, algorithm pg_rsa_algorithms, signature text) RETURNS boolean
+
+-- Run built-in self-tests
+pg_rsa_test() RETURNS boolean
 ```
 
-Supported algorithms (`rsa_algorithms` enum): `SHA256`, `SHA384`, `SHA512`
+Supported algorithms (`pg_rsa_algorithms` enum): `SHA256`, `SHA384`, `SHA512`
 
 ## Installation
 
@@ -50,12 +53,12 @@ docker run -e POSTGRES_PASSWORD=postgres pg_rsa
 CREATE EXTENSION pg_rsa;
 
 -- Sign
-SELECT rsa_sign_base64('my message', '-----BEGIN PRIVATE KEY-----
+SELECT pg_rsa_sign_b64('my message', '-----BEGIN PRIVATE KEY-----
 ...
 -----END PRIVATE KEY-----');
 
 -- Verify
-SELECT rsa_verify_b64('my message', '-----BEGIN PRIVATE KEY-----
+SELECT pg_rsa_verify_b64('my message', '-----BEGIN PUBLIC KEY-----
 ...
------END PRIVATE KEY-----', 'SHA256', '<base64-signature>');
+-----END PUBLIC KEY-----', 'SHA256', '<base64-signature>');
 ```
