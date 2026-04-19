@@ -1,6 +1,5 @@
 #include "postgres.h"
 #include "fmgr.h"
-#include "varatt.h"
 #include "utils/builtins.h"
 #include "catalog/pg_enum.h"
 #include "utils/syscache.h"

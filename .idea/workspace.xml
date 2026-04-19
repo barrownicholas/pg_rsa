@@ -53,7 +53,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3cc214dc-cc7f-4c5d-8284-2b6b3d8f69ce" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -346,11 +346,6 @@
         <option name="CLION.COMPOUND.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Native Application.all" />
       <item itemvalue="Native Application.all-lib" />
@@ -401,7 +396,8 @@
       <workItem from="1776448702499" duration="10882000" />
       <workItem from="1776540286225" duration="282000" />
       <workItem from="1776540579034" duration="226000" />
-      <workItem from="1776540815204" duration="8375000" />
+      <workItem from="1776540815204" duration="8905000" />
+      <workItem from="1776550573114" duration="9000" />
     </task>
     <servers />
   </component>
