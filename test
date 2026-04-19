@@ -1,8 +1,30 @@
 #!/bin/sh
 
+set -e
+
+# C unit tests
 gcc tests/_rsa_sign.test.c \
     -I$(brew --prefix openssl)/include \
     -L$(brew --prefix openssl)/lib \
     -lssl -lcrypto \
     -o pg_rsa_test.o && ./pg_rsa_test.o
 rm -rf pg_rsa_test.o
+
+# Docker integration test
+cleanup() {
+    docker stop pg_rsa_test 2>/dev/null || true
+}
+trap cleanup EXIT
+
+docker build -f Dockerfile -t pg_rsa:local-test .
+
+docker run --rm -d --name pg_rsa_test \
+    -e POSTGRES_PASSWORD=postgres \
+    pg_rsa:local-test
+
+echo "Waiting for PostgreSQL to be ready..."
+until docker exec pg_rsa_test pg_isready -U supabase_admin; do
+    sleep 2
+done
+docker exec pg_rsa_test psql -U postgres -d postgres -c "CREATE EXTENSION pg_rsa;"
+docker exec pg_rsa_test psql -U postgres -d postgres -c "SELECT pg_rsa_test();"

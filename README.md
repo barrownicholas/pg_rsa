@@ -9,7 +9,7 @@ A PostgreSQL extension for RSA signing and verification using OpenSSL.
 pg_rsa_sign(message text, private_key text, algorithm pg_rsa_algorithms DEFAULT 'SHA256') RETURNS bytea
 
 -- Sign a message, returns base64-encoded string
-pg_rsa_sign_base64(message text, private_key text, algorithm pg_rsa_algorithms DEFAULT 'SHA256') RETURNS text
+pg_rsa_sign_b64(message text, private_key text, algorithm pg_rsa_algorithms DEFAULT 'SHA256') RETURNS text
 
 -- Verify a signature (raw bytes)
 pg_rsa_verify(message text, public_key text, algorithm pg_rsa_algorithms, signature bytea) RETURNS boolean

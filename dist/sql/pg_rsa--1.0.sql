@@ -90,11 +90,11 @@ BEGIN
         'pg_rsa_sign should return bytea';
 
     -- 2. pg_rsa_sign_base64 returns text
-    ASSERT pg_typeof(@extschema@.pg_rsa_sign_base64('hello'::text, priv_key, 'SHA256'::@extschema@.pg_rsa_algorithms)) = 'text'::regtype,
+    ASSERT pg_typeof(@extschema@.pg_rsa_sign_b64('hello'::text, priv_key, 'SHA256'::@extschema@.pg_rsa_algorithms)) = 'text'::regtype,
         'pg_rsa_sign_base64 should return text';
 
     -- 3. pg_rsa_sign_base64 output is valid base64
-    ASSERT @extschema@.pg_rsa_sign_base64('hello'::text, priv_key, 'SHA256'::@extschema@.pg_rsa_algorithms) ~ '^[A-Za-z0-9+/]+=*$',
+    ASSERT @extschema@.pg_rsa_sign_b64('hello'::text, priv_key, 'SHA256'::@extschema@.pg_rsa_algorithms) ~ '^[A-Za-z0-9+/]+=*$',
         'pg_rsa_sign_base64 should return valid base64';
 
     -- 4. sign then verify SHA256
@@ -114,7 +114,7 @@ BEGIN
 
     -- 7. sign_base64 then verify_b64
     ASSERT @extschema@.pg_rsa_verify_b64('hello'::text, pub_key, 'SHA256'::@extschema@.pg_rsa_algorithms,
-        @extschema@.pg_rsa_sign_base64('hello'::text, priv_key, 'SHA256'::@extschema@.pg_rsa_algorithms)),
+        @extschema@.pg_rsa_sign_b64('hello'::text, priv_key, 'SHA256'::@extschema@.pg_rsa_algorithms)),
         'base64 signature should verify';
 
     -- 8. wrong message fails verification

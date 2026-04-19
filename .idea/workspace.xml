@@ -54,6 +54,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3cc214dc-cc7f-4c5d-8284-2b6b3d8f69ce" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sql/pg_rsa--1.0.sql" beforeDir="false" afterPath="$PROJECT_DIR$/dist/sql/pg_rsa--1.0.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test" beforeDir="false" afterPath="$PROJECT_DIR$/test" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -398,6 +401,7 @@
       <workItem from="1776540579034" duration="226000" />
       <workItem from="1776540815204" duration="8905000" />
       <workItem from="1776550573114" duration="9000" />
+      <workItem from="1776569011231" duration="2595000" />
     </task>
     <servers />
   </component>
